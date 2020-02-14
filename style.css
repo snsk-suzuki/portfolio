@@ -1,0 +1,542 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+}
+
+/*========================================
+  リンク
+========================================*/
+a ,a:link, a:visited{
+  color: #00000091;
+  text-decoration: none;
+  text-shadow: 2px 2px 0px #e1e8dc;
+}
+/*========================================
+  ヘッダー
+========================================*/
+header {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 80px;
+  background: #66CCFF;
+  position: fixed;
+  z-index: 1;
+}
+
+header h1 {
+  float: left;
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 80px;
+}
+
+header h1 a {
+  color: #000;
+  text-decoration: none;
+}
+/*========================================
+  ナビゲーション
+========================================*/
+nav a {
+  margin: 18px 10px;
+  padding:10px 10px;
+  font-size: 16px;
+  }
+
+#top-nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: 80px;
+  list-style: none;
+}
+
+#top-nav ul li {
+  float: right;
+  font-family: 'Roboto', sans-serif;
+}
+/*========================================
+  レイアウト
+========================================*/
+.site-width {
+  margin: 0 auto;
+  width: 1100px;
+}
+#contents {
+  overflow: hidden;
+  padding-top: 100px;
+  margin: 0 auto 20px;
+}
+#main {
+  width: 100%;
+  min-height: 700px;
+  float: left;
+}
+#main .linkmypage {
+  width: 130px;
+  padding: 20px;
+  font-size: 20px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+.page-2colum #main {
+  width: 75%;
+}
+.page-3colum #main {
+  width: 70%;
+}
+.mytraning-prof h2 {
+  font-size: 40px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.avatar-name {
+  text-align: center;
+}
+.avatar, .user-name {
+  vertical-align: middle;
+}
+.user-name {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10px;
+}
+.user-info {
+  width: 600px;
+  height: 100px;
+  margin: 50px auto 0px;
+}
+.bodysize {
+  float: left;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.bodysize .input-number {
+  width: 120px;
+  margin: 10px auto 0;
+}
+.mytraning-prof{
+  margin-top: 20px;
+}
+.back{
+  margin-left: 162.5px;
+}
+.top p{
+  margin: 15px auto;
+}
+/*========================================
+  フッター
+========================================*/
+#footer {
+  background: #66CCFF;
+  padding: 10px 0;
+  width: 100%;
+  color: #000;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+/*========================================
+  フォーム
+========================================*/
+.form-container {
+margin: 0 auto;
+}
+.form-title {
+  text-align: center;
+}
+.form-title h2 {
+  font-size: 40px;
+  margin: 50px auto;
+  text-align: center;
+}
+.form-title p {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 35px;
+  font-family: 'Roboto', sans-serif;
+}
+.form-title .area-msg {
+  color: red;
+}
+.form-fieldset {
+  margin-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  height: 100%;
+  clear: left;
+}
+.form {
+  width: 100%;
+  margin: 0 auto;
+}
+.form-fieldset label {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+}
+.form-fieldset .input-msg {
+  margin-top: 35px;
+}
+.form-fieldset .input-msg {
+  width: 100%;
+}
+.form-fieldset .input-email,.input-pass{
+  margin-top: 16px;
+  width: 400px;
+}
+.form-fieldset .input-number {
+  margin-top: 16px;
+  width: 120px;
+}
+.form-fieldset .input-title{
+  font-size:20px;
+}
+.form-fieldset .input-title-sub {
+  font-size: 13px;
+  margin-left: 10px;
+}
+.form-fieldset .area-msg {
+  font-size: 13px;
+  margin-left: 10px;
+  color: red;
+  clear: right;
+}
+.form-fieldset .add-area-msg {
+  font-size: 13px;
+  color: red;
+  clear: right;
+}
+.form-fieldset .err input {
+  background: #f7dcd9;
+}
+.form-fieldset .passremind {
+  width : 400px;
+  margin: 20px auto;
+}
+.form-fieldset .area-drop {
+  height: 370px;
+  margin-top: 16px;
+  background: #C2EEFF;
+  text-align: center;
+  position: relative;
+  line-height: 20.3;
+  color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.form-fieldset .input-traning{
+  margin-top: 16px;
+  height: 64px;
+  position: relative;
+}
+input[type="text"], input[type="password"] {
+  height: 44px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #C2EEFF;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+input[type="submit"] {
+  height: 50px;
+  width: 400px;
+  font-size: 20px;
+  margin: 40px auto;
+  border-radius: 8px;
+}
+input[type="button"] {
+  height: 50px;
+  width: 60px;
+  font-size: 20px;
+  margin-top: 35px;
+  border-radius: 8px;
+}
+input[type="number"] {
+  height: 44px;
+  width: 60%;
+  box-sizing: border-box;
+  background: #C2EEFF;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+input[type="file"] {
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.form .prev-img {
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.event label {
+  display: block;
+  width: 320px;
+  margin-left: 0;
+}
+.weight-rep label {
+  display: block;
+  width: 117px;
+  margin-left: 0;
+}
+.event {
+  float: right;
+  margin: 0 0 30px 10px;
+}
+.weight-rep {
+  float: right;
+  margin: 0 0 30px 10px;
+}
+.form-box {
+  overflow: hidden;
+  width: 500px;
+  margin: 0 auto;
+}
+.create-date{
+  width: 500px;
+  margin: 20px auto 0;
+  font-size: 20px;
+}
+.input-traning .input-weight {
+  height: 44px;
+  width: 97px;
+  box-sizing: border-box;
+  background: #C2EEFF;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+}
+.input-traning select {
+  font-size: 14px;
+  width: 22px;
+  height: 44px;
+  position: absolute;
+  bottom: 0;
+  left: 75px;
+  border-radius: 3px;
+}
+.event .input-traning select {
+  font-size: 14px;
+  width: 22px;
+  height: 44px;
+  position: absolute;
+  bottom: 20px;
+  left: 298px;
+}
+.input-traning span{
+  position: absolute;
+  left: 100px;
+  bottom: 0;
+}
+.set {
+  float: right;
+  margin: 40px 13px 30px 20px;
+}
+#add-set, #delete-set {
+  float: left;
+}
+/*========================================
+  ボタン
+========================================*/
+.btn {
+  display: block;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  background: url(img/btn057_10.png)no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 6px 7px 8px 0px black;
+}
+/*========================================
+  サイドバー
+========================================*/
+
+#sidebar {
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+  border:3px solid #ccc;
+  margin-left: 5%;
+  padding: 15px;
+  min-height: 700px;
+  background: #C2EEFF;
+  font-family: 'Roboto', sans-serif;
+}
+#sidebar a {
+  display: block;
+  margin-bottom: 15px;
+}
+#sidebar h1 {
+  font-size: 18px;
+}
+#sidebar select {
+  padding: 10px;
+  height: 40px;
+  width: 100%;
+  border-radius: 0;
+  font-size: 14px;
+  background: #C2EEFF;
+}
+#sidebar input[type="submit"] {
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  margin: 20px auto;
+  background: url(img/btn057_10.png)no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 6px 7px 8px 0px black;
+}
+/*========================================
+  検索エリア
+========================================*/
+.search-title{
+  height: 40px;
+  width: 80%;
+  padding: 5px 10px;
+  background-color: #dcd2ae;
+  line-height: 40px;
+  margin: 0 auto 30px;
+}
+.search-left{
+  float: left;
+}
+.search-right{
+  float:right;
+}
+.total-num{
+  font-size: 20px;
+  font-weight: bold;
+}
+/*========================================
+  リスト
+========================================*/
+.panel {
+  width: 80%;
+  display: block;
+  margin: 0 auto 30px;
+  padding: 5px 10px;
+  background-color: #b1b08940;
+  position: relative;
+}
+.date{
+  float: left;
+  font-size: 18px;
+}
+.event-record{
+  float: left;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.set-record{
+  clear: left;
+  margin-left: 172.5px;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.panel a{
+  padding: 10px 10px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+.panel .edit{
+  position: absolute;
+  right: 100px;
+  bottom: 12px;
+}
+.panel .delete{
+  position: absolute;
+  right: 20px;
+  bottom: 12px;
+}
+/*========================================
+  ページネーション
+========================================*/
+.pagination {
+  position: relative;
+  overflow: hidden;
+}
+
+.pagination-list {
+  position: relative;
+  left: 50%;
+  float: left;
+  padding-left: 0;
+  list-style: none;
+}
+
+.pagination .list-item {
+  position: relative;
+  left: -50%;
+  float: left;
+  margin-right: 5px;
+}
+
+.pagination .list-item:last-child {
+  margin-right: 0;
+}
+
+.pagination .list-item a {
+  display: block;
+  padding: 5px 10px;
+  background: #dcd2ae;
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: none;
+}
+
+.pagination .list-item.active a {
+  background: #333;
+  color: white;
+  text-shadow: none;
+}
+
+.pagination .list-item a:hover {
+  background: #333;
+  color: white;
+  text-shadow: none;
+}
+/*========================================
+  その他
+========================================*/
+.msg-slide{
+  position: fixed;
+  top: 0;
+  width:100%;
+  height:40px;
+  background: rgba(255,255,0,0.6);
+  text-align: center;
+  font-size:16px;
+  line-height: 40px;
+  z-index: 2;
+}
+.avatar{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
